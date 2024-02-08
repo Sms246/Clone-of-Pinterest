@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #e7e7e7;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#first-div {
+  width: 100%;
+  min-height: 450px;
+  box-shadow: 0px 0px 1px 1px rgb(0, 0, 0);
+  margin: 20px auto;
+  padding: 30px 0;
+  position: relative;
+  border-radius: 15px;
+}
+
+#proimg {
+  width: auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#proimg > img {
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fphotos%2Faesthetic&psig=AOvVaw0BIQA030ZTKbo-JBnqfPjx&ust=1707303455730000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLDX15HHloQDFQAAAAAdAAAAABAS");
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  border: 1px solid rgb(57, 57, 57);
+  z-index: 100;
+}
+
+#profile-info {
+  position: relative;
+  padding-top: 150px;
+  width: 60%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+#profile-info > p, h2{
+  margin: 10px 0;
+}
+
+#profile-setting {
+  margin-left: auto;
+  position: absolute;
+  /* margin: 0px; */
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#profile-setting > a {
+  margin: 0px 15px;
+}
+
+#profile-setting > form {
+  margin: 30px 10px 0 10px;
+}
+
+.profile-btn {
+  padding: 10px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #df2222;
+}
